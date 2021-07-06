@@ -1,0 +1,121 @@
+.section-3 {
+    background: url(../Images/bg-2-01.png) no-repeat;
+    background-size: cover;
+
+    .section-3-holder {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .section-3-logo {
+
+            img {
+                width: 15%;
+            }
+        }
+
+        .section-3-content {
+
+            h4 {
+                font-family: 'UTM AvoBold', sans-serif;
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+
+            p {
+                margin: 0 auto;
+                width: 60%;
+                font-family: 'UTM Avo', sans-serif;
+                font-size: 0.8rem;
+            }
+        }
+
+        .section-3-img {
+            display: none;
+        }
+
+        .banner {
+            background: url(../Images/banner-01-01.png) no-repeat;
+            background-size: contain;
+            background-color: #5e2c7e;
+            
+            .banner-header {
+
+                .header-content {
+                    font-family: 'SVN-A love of thunder', sans-serif;
+                    font-size: 1rem;
+                    color: #fff;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .section-3 {
+        background: url(../Images/bg-2-01.png) no-repeat;
+        background-size: cover;
+    
+        .section-3-holder {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+    
+            .section-3-logo {
+    
+                img {
+                    width: 15%;
+                }
+            }
+    
+            .section-3-content {
+    
+                h4 {
+                    font-family: 'UTM AvoBold', sans-serif;
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+    
+                p {
+                    margin: 0 auto;
+                    width: 60%;
+                    font-family: 'UTM Avo', sans-serif;
+                    font-size: 0.8rem;
+                }
+            }
+    
+            .section-3-img {
+                display: none;
+            }
+    
+            .banner {
+                background: url(../Images/banner-01-01.png) no-repeat;
+                background-size: cover;
+                background-color: #5e2c7e;
+                
+                .banner-header {
+    
+                    .header-content {
+                        font-family: 'SVN-A love of thunder', sans-serif;
+                        font-size: 1rem;
+                        color: #fff;
+    
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .header-p {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

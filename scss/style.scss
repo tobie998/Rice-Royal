@@ -1,0 +1,55 @@
+@import "section-1";
+@import "navigator";
+@import "introduction";
+@import "section-2";
+@import "section-3";
+
+
+
+
+
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+*, 
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Courier;
+    src: url(../Fonts/courier.ttf);
+};
+
+@font-face {
+    font-family: SVN-Museo;
+    src: url(../Fonts/SVN-Museo-Sans-Regular.ttf);
+}
+
+@font-face {
+    font-family: SVN-A love of thunder;
+    src: url(../Fonts/SVN-SVN-A-Love-Of-Thunder.ttf);
+}
+
+@font-face {
+    font-family: UTM Avo;
+    src: url(../Fonts/UTM-Avo.ttf);
+}
+
+@font-face {
+    font-family: UTM AvoBold_Italic;
+    src: url(../Fonts/UTM-AvoBold_Italic.ttf);
+}
+
+@font-face {
+    font-family: UTM AvoBold;
+    src: url(../Fonts/UTM-AvoBold.ttf);
+}

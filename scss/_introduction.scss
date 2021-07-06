@@ -1,0 +1,216 @@
+.introduction {
+    margin-bottom: 2rem;
+
+    .introduction-holder {
+        background: url(../Images/bg-field-01.png) no-repeat;
+        background-size: cover;
+        padding: 0.5rem;
+        
+
+        .introduction-content {
+            margin: 1rem 0.5rem;
+            padding-bottom: 1rem;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 0 20px 0 20px;
+
+            .content-header {
+                font-family: 'SVN-A Love Of Thunder', sans-serif;
+                color: #5e2c7e; 
+                line-height: 2.5rem;
+                padding-left: 1rem;
+
+                p {
+                    margin-bottom: 0;
+                    font-size: 2rem;
+                }
+
+                span {
+                    font-size: 2.5rem;
+                }
+            }
+
+            .content-detail {
+                padding-left: 1rem;
+
+                p {
+                    font-family: 'Courier', sans-serif;
+                    margin-bottom: 0;
+                    font-size: 0.8rem;
+                }
+            }
+
+            .content-btn {
+                background: url(../Images/button-bg-yellow-01.png) no-repeat;
+                background-position: center;
+                background-size: contain;
+                padding: 0.2rem 0.5rem;
+                text-align: center;
+                margin-top: 1rem;
+
+                a {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 0.8rem;
+                    font-family: 'SVN-Museo', sans-serif;
+                    cursor: pointer;
+                }
+                
+            }
+
+            .content-list {
+                margin-top: 1rem;
+
+                .list-item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 0.3rem;
+                    
+
+                    .list-item-icon {
+                        text-align: right;
+
+                        img {
+                            width: 50%;
+                      }
+                    }
+
+                    .description {
+                        text-transform: uppercase;
+                        position: relative;
+                        overflow: hidden;
+                        color: #fff;
+                        font-family: 'UMT AvoBold', sans-serif;
+                        vertical-align: middle;
+                        padding: 0.2rem 0.5rem;
+                        margin-left: 0.2rem;
+                        font-size: 0.8rem;
+                        width: 10rem;
+                    }
+
+                    .description::before {
+                        content: "";
+                        border-radius: 50%;
+                        background: rgba(255, 255, 255, 0.8);
+                        position: absolute;
+                        height: 25px;
+                        width: 20px;
+                        left: -14px;
+                        top: 0;
+                    }
+
+                    #violet {
+                        background-color: #5e2c7e;
+                    }
+
+                    #blue {
+                        background-color: #284a8e;
+                    }
+
+                    #green {
+                        background-color: #047541;
+                    }
+
+                    #red {
+                        background-color: #b64940;
+                    }  
+                }
+            }
+        }
+
+        .introduction-carousel {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .introduction {
+        margin-bottom: 4rem;
+
+        .introduction-holder {    
+            display: flex;
+            justify-content: space-around;
+            
+    
+            .introduction-content {
+                padding: 0 2rem;
+                margin: 3rem 3rem 1rem;
+                border-radius: 0 30px 0 30px;
+
+                .content-header {
+                    line-height: 3.8rem;
+    
+                    p {
+                        font-size: 3rem;
+                    }
+    
+                    span {
+                        font-size: 4.5rem;
+                    }
+                }
+    
+                .content-detail {
+    
+                    p {
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                    }
+                }
+    
+                .content-btn {
+                    padding: 0.5rem 1rem;
+    
+                    a {
+                       font-size: 1rem;
+                    }
+                    
+                }
+    
+                .content-list {
+                    margin-top: 2rem;
+                    margin-left: -1rem;
+    
+                    .list-item {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 0.3rem;
+                        
+                        .list-item-icon {
+                            text-align: right;
+    
+                            img {
+                                width: 80%;
+                          }
+                        }
+    
+                        .description {
+                            padding: 0.5rem 0.3rem;
+                        }
+    
+                        .description::before {
+                            height: 35px;
+                        }
+                    }
+                }
+            }
+    
+            .introduction-carousel {
+                display: block;
+                width: 35%;
+             
+                .owl-1 {    
+                    margin-top: 4rem;
+                    padding: 0 1rem;
+
+                    .product-item {
+                        
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

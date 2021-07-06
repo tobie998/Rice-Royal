@@ -1,0 +1,600 @@
+.section-1 {
+  background: url(../Images/Untitled-12-01.png);
+  background-size: contain;
+  background-color: #ffc117;
+}
+.section-1 .header {
+  display: flex;
+  align-items: center;
+}
+.section-1 .header .logo-slogan {
+  width: 50%;
+  padding: 0.5rem 0;
+}
+.section-1 .header .logo-slogan img {
+  width: 60%;
+}
+.section-1 .header .contact .contact-details {
+  display: flex;
+  align-items: center;
+}
+.section-1 .header .contact .contact-details .icon-holder {
+  width: 10%;
+}
+.section-1 .header .contact .contact-details .icon-holder img {
+  width: 90%;
+}
+.section-1 .header .contact .schedule {
+  font-family: "SVN-Museo", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+.section-1 .header .contact .schedule .schedule-details {
+  line-height: 0.9rem;
+  margin-left: 0.5rem;
+}
+.section-1 .header .contact .schedule .schedule-details p {
+  margin-bottom: 0;
+}
+.section-1 .header .contact .phone {
+  font-family: "UTM AvoBold", sans-serif;
+  color: #5e2c7e;
+  font-size: 0.8rem;
+  margin: auto 0;
+}
+.section-1 .overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  opacity: 0;
+  visibility: hidden;
+}
+.section-1 .overlay-active {
+  opacity: 1;
+  z-index: 2;
+  visibility: visible;
+}
+
+@media screen and (min-width: 991px) {
+  .section-1 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-1 .header .logo-slogan {
+    width: 50%;
+    padding: 1rem 0;
+  }
+  .section-1 .header .logo-slogan img {
+    width: 30%;
+  }
+  .section-1 .header .contact .contact-details {
+    display: flex;
+  }
+  .section-1 .header .contact .contact-details .icon-holder {
+    width: 10%;
+  }
+  .section-1 .header .contact .contact-details .icon-holder img {
+    width: 100%;
+  }
+  .section-1 .header .contact .schedule {
+    font-size: 1rem;
+  }
+  .section-1 .header .contact .phone {
+    font-size: 1.3rem;
+  }
+}
+.navigator {
+  background-color: #5e2c7e;
+  position: relative;
+}
+.navigator .nav-bar .menu-btn {
+  padding: 0.5rem 0;
+  z-index: 4;
+}
+.navigator .nav-bar .menu-btn i {
+  color: #fff;
+}
+.navigator .nav-bar .menu-mobile {
+  position: fixed;
+  background-color: #fff;
+  height: 100vh;
+  top: 0;
+  left: -100%;
+  width: 70%;
+  box-shadow: 1px 1px 5px 0px #d193f8;
+  transition: left 0.8s ease-in;
+  z-index: 3;
+}
+.navigator .nav-bar .menu-mobile .close-btn {
+  text-align: right;
+  padding: 0.5rem 1rem 0.5rem 0;
+  color: #5e2c7e;
+}
+.navigator .nav-bar .menu-mobile ul {
+  margin-top: 1rem;
+}
+.navigator .nav-bar .menu-mobile ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+.navigator .nav-bar .menu-mobile ul li a {
+  font-family: "SVN-Museo", sans-serif;
+  font-size: 0.8rem;
+  color: #5e2c7e;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navigator .nav-bar .menu-active {
+  left: 0;
+  transition: left 1s ease;
+}
+.navigator .nav-bar .menu-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .navigator .nav-bar .menu-btn {
+    display: none;
+  }
+  .navigator .nav-bar .menu-mobile {
+    display: none;
+  }
+  .navigator .nav-bar .menu-desktop {
+    display: block;
+  }
+  .navigator .nav-bar .menu-desktop ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    margin-bottom: 0;
+  }
+  .navigator .nav-bar .menu-desktop ul li {
+    list-style: none;
+  }
+  .navigator .nav-bar .menu-desktop ul li a {
+    font-family: "SVN-Museo", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffc117;
+    font-size: 1rem;
+  }
+  .navigator .nav-bar .menu-desktop ul li a:hover {
+    padding: 0.3rem 1rem;
+    color: #5e2c7e;
+    background-color: #ffc117;
+    border-radius: 20px;
+  }
+}
+.introduction {
+  margin-bottom: 2rem;
+}
+.introduction .introduction-holder {
+  background: url(../Images/bg-field-01.png) no-repeat;
+  background-size: cover;
+  padding: 0.5rem;
+}
+.introduction .introduction-holder .introduction-content {
+  margin: 1rem 0.5rem;
+  padding-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 0 20px 0 20px;
+}
+.introduction .introduction-holder .introduction-content .content-header {
+  font-family: "SVN-A Love Of Thunder", sans-serif;
+  color: #5e2c7e;
+  line-height: 2.5rem;
+  padding-left: 1rem;
+}
+.introduction .introduction-holder .introduction-content .content-header p {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.introduction .introduction-holder .introduction-content .content-header span {
+  font-size: 2.5rem;
+}
+.introduction .introduction-holder .introduction-content .content-detail {
+  padding-left: 1rem;
+}
+.introduction .introduction-holder .introduction-content .content-detail p {
+  font-family: "Courier", sans-serif;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+.introduction .introduction-holder .introduction-content .content-btn {
+  background: url(../Images/button-bg-yellow-01.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.introduction .introduction-holder .introduction-content .content-btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+  font-family: "SVN-Museo", sans-serif;
+  cursor: pointer;
+}
+.introduction .introduction-holder .introduction-content .content-list {
+  margin-top: 1rem;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item .list-item-icon {
+  text-align: right;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item .list-item-icon img {
+  width: 50%;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item .description {
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  font-family: "UMT AvoBold", sans-serif;
+  vertical-align: middle;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.2rem;
+  font-size: 0.8rem;
+  width: 10rem;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item .description::before {
+  content: "";
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  height: 25px;
+  width: 20px;
+  left: -14px;
+  top: 0;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item #violet {
+  background-color: #5e2c7e;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item #blue {
+  background-color: #284a8e;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item #green {
+  background-color: #047541;
+}
+.introduction .introduction-holder .introduction-content .content-list .list-item #red {
+  background-color: #b64940;
+}
+.introduction .introduction-holder .introduction-carousel {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .introduction {
+    margin-bottom: 4rem;
+  }
+  .introduction .introduction-holder {
+    display: flex;
+    justify-content: space-around;
+  }
+  .introduction .introduction-holder .introduction-content {
+    padding: 0 2rem;
+    margin: 3rem 3rem 1rem;
+    border-radius: 0 30px 0 30px;
+  }
+  .introduction .introduction-holder .introduction-content .content-header {
+    line-height: 3.8rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-header p {
+    font-size: 3rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-header span {
+    font-size: 4.5rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-detail p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .introduction .introduction-holder .introduction-content .content-btn {
+    padding: 0.5rem 1rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-btn a {
+    font-size: 1rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-list {
+    margin-top: 2rem;
+    margin-left: -1rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-list .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-list .list-item .list-item-icon {
+    text-align: right;
+  }
+  .introduction .introduction-holder .introduction-content .content-list .list-item .list-item-icon img {
+    width: 80%;
+  }
+  .introduction .introduction-holder .introduction-content .content-list .list-item .description {
+    padding: 0.5rem 0.3rem;
+  }
+  .introduction .introduction-holder .introduction-content .content-list .list-item .description::before {
+    height: 35px;
+  }
+  .introduction .introduction-holder .introduction-carousel {
+    display: block;
+    width: 35%;
+  }
+  .introduction .introduction-holder .introduction-carousel .owl-1 {
+    margin-top: 4rem;
+    padding: 0 1rem;
+  }
+  .introduction .introduction-holder .introduction-carousel .owl-1 .product-item img {
+    width: 100%;
+  }
+}
+.section-2 {
+  margin-bottom: 2rem;
+}
+.section-2 .section-2-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f1edf4;
+  padding: 1rem 0.3rem;
+}
+.section-2 .section-2-holder .rice-logo {
+  margin-bottom: 1rem;
+}
+.section-2 .section-2-holder .rice-logo img {
+  width: 40%;
+}
+.section-2 .section-2-holder .section-2-content {
+  margin-bottom: 1.5rem;
+}
+.section-2 .section-2-holder .section-2-content h5 {
+  font-family: "UTM AvoBold", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.section-2 .section-2-holder .section-2-content p {
+  display: none;
+}
+.section-2 .section-2-holder .section-2-icon .icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.section-2 .section-2-holder .section-2-icon .icon-item .icon-holder {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.section-2 .section-2-holder .section-2-icon .icon-item .icon-holder img {
+  width: 25%;
+}
+.section-2 .section-2-holder .section-2-icon .icon-item p {
+  width: 60%;
+  font-family: "UTM AvoBold", sans-serif;
+  font-size: 0.7rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.section-2 .section-2-holder .section-2-btn {
+  background: url(../Images/button-bg-yellow-01.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0.2rem 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.section-2 .section-2-holder .section-2-btn a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+  font-family: "SVN-Museo", sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 991px) {
+  .section-2 {
+    margin-bottom: 4rem;
+  }
+  .section-2 .section-2-holder .rice-logo img {
+    width: 50%;
+  }
+  .section-2 .section-2-holder .section-2-content {
+    margin-bottom: 1.5rem;
+  }
+  .section-2 .section-2-holder .section-2-content h5 {
+    font-size: 2rem;
+  }
+  .section-2 .section-2-holder .section-2-content p {
+    padding: 0 2rem;
+    text-align: center;
+    font-family: "Courier", sans-serif;
+    font-size: 1rem;
+    display: block;
+    margin: 1rem 0 0 0;
+  }
+  .section-2 .section-2-holder .section-2-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .section-2 .section-2-holder .section-2-icon .icon-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem 1rem 0;
+  }
+  .section-2 .section-2-holder .section-2-icon .icon-item .icon-holder {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .section-2 .section-2-holder .section-2-icon .icon-item .icon-holder img {
+    width: 50%;
+  }
+  .section-2 .section-2-holder .section-2-icon .icon-item p {
+    width: 100%;
+    font-family: "UTM AvoBold", sans-serif;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  .section-2 .section-2-holder .section-2-icon .icon-item #longer-width {
+    width: 60%;
+  }
+  .section-2 .section-2-holder .section-2-icon .icon-item #p01 {
+    margin-top: -6.5px;
+  }
+  .section-2 .section-2-holder .section-2-btn {
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .section-2 .section-2-holder .section-2-btn a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-family: "SVN-Museo", sans-serif;
+    cursor: pointer;
+  }
+}
+.section-3 {
+  background: url(../Images/bg-2-01.png) no-repeat;
+  background-size: cover;
+}
+.section-3 .section-3-holder {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-3 .section-3-holder .section-3-logo img {
+  width: 15%;
+}
+.section-3 .section-3-holder .section-3-content h4 {
+  font-family: "UTM AvoBold", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.section-3 .section-3-holder .section-3-content p {
+  margin: 0 auto;
+  width: 60%;
+  font-family: "UTM Avo", sans-serif;
+  font-size: 0.8rem;
+}
+.section-3 .section-3-holder .section-3-img {
+  display: none;
+}
+.section-3 .section-3-holder .banner {
+  background: url(../Images/banner-01-01.png) no-repeat;
+  background-size: contain;
+  background-color: #5e2c7e;
+}
+.section-3 .section-3-holder .banner .banner-header .header-content {
+  font-family: "SVN-A love of thunder", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+.section-3 .section-3-holder .banner .banner-header .header-content p {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 991px) {
+  .section-3 {
+    background: url(../Images/bg-2-01.png) no-repeat;
+    background-size: cover;
+  }
+  .section-3 .section-3-holder {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-3 .section-3-holder .section-3-logo img {
+    width: 15%;
+  }
+  .section-3 .section-3-holder .section-3-content h4 {
+    font-family: "UTM AvoBold", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .section-3 .section-3-holder .section-3-content p {
+    margin: 0 auto;
+    width: 60%;
+    font-family: "UTM Avo", sans-serif;
+    font-size: 0.8rem;
+  }
+  .section-3 .section-3-holder .section-3-img {
+    display: none;
+  }
+  .section-3 .section-3-holder .banner {
+    background: url(../Images/banner-01-01.png) no-repeat;
+    background-size: cover;
+    background-color: #5e2c7e;
+  }
+  .section-3 .section-3-holder .banner .banner-header .header-content {
+    font-family: "SVN-A love of thunder", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+  }
+  .section-3 .section-3-holder .banner .banner-header .header-content p {
+    margin-bottom: 0;
+  }
+  .section-3 .section-3-holder .banner .banner-header .header-p {
+    width: 50%;
+  }
+}
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Courier;
+  src: url(../Fonts/courier.ttf);
+}
+@font-face {
+  font-family: SVN-Museo;
+  src: url(../Fonts/SVN-Museo-Sans-Regular.ttf);
+}
+@font-face {
+  font-family: SVN-A love of thunder;
+  src: url(../Fonts/SVN-SVN-A-Love-Of-Thunder.ttf);
+}
+@font-face {
+  font-family: UTM Avo;
+  src: url(../Fonts/UTM-Avo.ttf);
+}
+@font-face {
+  font-family: UTM AvoBold_Italic;
+  src: url(../Fonts/UTM-AvoBold_Italic.ttf);
+}
+@font-face {
+  font-family: UTM AvoBold;
+  src: url(../Fonts/UTM-AvoBold.ttf);
+}/*# sourceMappingURL=style.css.map */

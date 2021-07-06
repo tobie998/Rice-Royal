@@ -1,0 +1,108 @@
+.navigator {
+    background-color: #5e2c7e;
+    position: relative;
+
+    .nav-bar {
+        
+        .menu-btn {
+            padding: 0.5rem 0;
+            z-index: 4;
+
+            i {
+                color: #fff;
+            }
+        }
+
+        .menu-mobile {
+            position: fixed;
+            background-color: #fff;
+            height: 100vh;
+            top: 0; 
+            left: -100%;
+            width: 70%;
+            box-shadow: 1px 1px 5px 0px #d193f8;
+            transition: left 0.8s ease-in;
+            z-index: 3;
+           
+            .close-btn {
+                text-align: right;
+                padding: 0.5rem 1rem 0.5rem 0;
+                color: #5e2c7e;
+            }
+
+            ul {
+                margin-top: 1rem;
+
+                li {
+                    list-style: none;
+                    margin-left: 1rem;
+
+                    a {
+                        font-family: 'SVN-Museo', sans-serif;
+                        font-size: 0.8rem;
+                        color: #5e2c7e;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .menu-active {
+            left: 0;
+            transition: left 1s ease;
+        }
+
+        .menu-desktop {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .navigator {
+    
+        .nav-bar {
+            
+            .menu-btn {
+                display: none;
+            }
+    
+            .menu-mobile {
+                display: none;
+            }
+            
+            .menu-desktop {
+                display: block;
+
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 1rem 0;
+                    margin-bottom: 0;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            font-family: 'SVN-Museo', sans-serif;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            color: #ffc117;
+                            font-size: 1rem;
+                        }
+
+                        a:hover {
+                            padding: 0.3rem 1rem;
+                            color: #5e2c7e;
+                            background-color: #ffc117;
+                            border-radius: 20px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

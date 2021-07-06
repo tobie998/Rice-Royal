@@ -1,0 +1,122 @@
+.section-1 {
+    background: url(../Images/Untitled-12-01.png) ;
+    background-size: contain;
+    background-color: #ffc117;
+    
+    
+    .header {
+        display: flex;
+        align-items: center;
+
+        .logo-slogan {
+            width: 50%;
+            padding: 0.5rem 0;
+            
+           img {
+               width: 60%;
+           }
+        }
+
+        .contact {
+            
+            .contact-details {
+                display: flex;
+                align-items: center;
+
+                .icon-holder {
+                    width: 10%;
+
+                    img {
+                        width: 90%;
+                    }
+                }                
+            }
+
+            .schedule {
+                //display: none;
+                font-family: 'SVN-Museo', sans-serif;
+                font-size: 0.8rem;
+                font-weight: 500;
+                margin-bottom: 0.2rem;
+
+                .schedule-details {
+                    line-height: 0.9rem;
+                    margin-left: 0.5rem;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .phone {
+                font-family: 'UTM AvoBold', sans-serif;
+                color: #5e2c7e;
+                font-size: 0.8rem;
+                margin: auto 0;
+            }
+        }
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(1px);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .overlay-active {
+        opacity: 1;
+        z-index: 2;
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .section-1 {
+         
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            .logo-slogan {
+                width: 50%;
+                padding: 1rem 0;
+                
+                img {
+                    width: 30%;
+                };
+            }
+    
+            .contact {
+                
+                .contact-details {
+                    display: flex;
+                    
+    
+                    .icon-holder {
+                        width: 10%;
+    
+                        img {
+                            width: 100%;
+                        }
+                    }                
+                }
+    
+                .schedule {
+                    font-size: 1rem;
+
+                }
+    
+                .phone {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}

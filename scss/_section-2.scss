@@ -1,0 +1,167 @@
+.section-2 {
+    margin-bottom: 2rem;
+
+    .section-2-holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #f1edf4;
+        padding: 1rem 0.3rem;
+
+        .rice-logo {
+            margin-bottom: 1rem;
+
+            img {
+                width: 40%;
+            }
+        }
+
+        .section-2-content {
+            margin-bottom: 1.5rem;
+
+            h5 {
+                font-family: 'UTM AvoBold', sans-serif;
+                text-transform: uppercase;
+                font-size: 1rem;
+            }
+
+            p {
+                display: none;
+            }
+        }
+
+        .section-2-icon {
+
+            .icon-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 1rem;
+
+                .icon-holder {
+                    text-align: center;
+                    margin-bottom: 0.5rem;
+
+                    img {
+                        width: 25%;
+                    }
+                }
+
+                p {
+                    width: 60%;
+                    font-family: 'UTM AvoBold', sans-serif;
+                    font-size: 0.7rem;
+                    margin-bottom: 0;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .section-2-btn {
+            background: url(../Images/button-bg-yellow-01.png) no-repeat;
+            background-position: center;
+            background-size: contain;
+            padding: 0.2rem 0.5rem;
+            text-align: center;
+            margin-top: 1rem;
+
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #000;
+                font-size: 0.8rem;
+                font-family: 'SVN-Museo', sans-serif;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .section-2 {
+        margin-bottom: 4rem;
+
+        .section-2-holder {
+            
+            .rice-logo {
+    
+                img {
+                    width: 50%;
+                }
+            }
+    
+            .section-2-content {
+                margin-bottom: 1.5rem;
+    
+                h5 {
+                    font-size: 2rem;
+                }
+    
+                p {
+                    padding: 0 2rem;
+                    text-align: center;
+                    font-family: 'Courier', sans-serif;
+                    font-size: 1rem;
+                    display: block;
+                    margin: 1rem 0 0 0;
+                }
+            }
+    
+            .section-2-icon {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+
+                .icon-item {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 5rem 1rem 0;
+    
+                    .icon-holder {
+                        text-align: center;
+                        margin-bottom: 0.5rem;
+    
+                        img {
+                            width: 50%;
+                        }
+                    }
+    
+                    p {
+                        width: 100%;
+                        font-family: 'UTM AvoBold', sans-serif;
+                        font-size: 0.7rem;
+                        margin-bottom: 0;
+                        text-transform: uppercase;
+                    }
+
+                    #longer-width {
+                        width: 60%;
+                    }
+
+                    #p01 {
+                        margin-top: -6.5px;
+                    }
+                }
+            }
+    
+            .section-2-btn {
+                padding: 0.5rem 0.8rem;
+                text-align: center;
+                margin-top: 1rem;
+    
+                a {
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 1rem;
+                    font-family: 'SVN-Museo', sans-serif;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
