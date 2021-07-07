@@ -196,3 +196,17 @@
         }
     }   
 }
+
+@media screen and (min-width: 1440px) {
+    .content-1 {
+       
+        .owl-next {
+            right: 10%;
+        }
+
+        .owl-prev {
+            left: 10%;
+        }
+    }
+}    
+
