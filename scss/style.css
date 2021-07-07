@@ -476,20 +476,26 @@
 .section-3 {
   background: url(../Images/bg-2-01.png) no-repeat;
   background-size: cover;
+  height: 40vh;
+  position: relative;
 }
 .section-3 .section-3-holder {
   display: flex;
   flex-direction: column;
   text-align: center;
+  transform: translateY(50%);
+}
+.section-3 .section-3-holder .section-3-logo {
+  margin-bottom: 0.5rem;
 }
 .section-3 .section-3-holder .section-3-logo img {
-  width: 15%;
+  width: 12%;
 }
 .section-3 .section-3-holder .section-3-content h4 {
   font-family: "UTM AvoBold", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0.2rem;
 }
 .section-3 .section-3-holder .section-3-content p {
   margin: 0 auto;
@@ -502,34 +508,61 @@
 }
 .section-3 .section-3-holder .banner {
   background: url(../Images/banner-01-01.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: #5e2c7e;
+  position: absolute;
+  width: 100%;
+  bottom: -80%;
+  left: 0;
+  padding: 1rem 0;
+}
+.section-3 .section-3-holder .banner .banner-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .section-3 .section-3-holder .banner .banner-header .header-content {
   font-family: "SVN-A love of thunder", sans-serif;
   font-size: 1rem;
   color: #fff;
+  margin-left: 1rem;
+  line-height: 1.2rem;
+  text-align: left;
 }
 .section-3 .section-3-holder .banner .banner-header .header-content p {
   margin-bottom: 0;
 }
+.section-3 .section-3-holder .banner .banner-header .header-icon {
+  width: 10%;
+  margin-left: 0.5rem;
+}
+.section-3 .section-3-holder .banner .banner-header .header-icon img {
+  width: 90%;
+}
+.section-3 .section-3-holder .banner .header-p {
+  display: none;
+}
 
 @media screen and (min-width: 991px) {
   .section-3 {
-    background: url(../Images/bg-2-01.png) no-repeat;
-    background-size: cover;
+    height: 100vh;
+    position: relative;
   }
   .section-3 .section-3-holder {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    transform: translateY(150%);
+  }
+  .section-3 .section-3-holder .section-3-logo {
+    margin-bottom: 0;
   }
   .section-3 .section-3-holder .section-3-logo img {
-    width: 15%;
+    width: 5%;
+  }
+  .section-3 .section-3-holder .section-3-content {
+    margin-top: 1.5rem;
   }
   .section-3 .section-3-holder .section-3-content h4 {
     font-family: "UTM AvoBold", sans-serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 0;
   }
@@ -537,26 +570,195 @@
     margin: 0 auto;
     width: 60%;
     font-family: "UTM Avo", sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
   }
   .section-3 .section-3-holder .section-3-img {
-    display: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -30vh;
+  }
+  .section-3 .section-3-holder .section-3-img img {
+    width: 80%;
   }
   .section-3 .section-3-holder .banner {
-    background: url(../Images/banner-01-01.png) no-repeat;
-    background-size: cover;
-    background-color: #5e2c7e;
+    position: absolute;
+    bottom: -70vh;
+    left: 0;
+    padding: 2rem;
+  }
+  .section-3 .section-3-holder .banner .banner-header {
+    margin-bottom: 1rem;
   }
   .section-3 .section-3-holder .banner .banner-header .header-content {
     font-family: "SVN-A love of thunder", sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #fff;
+    margin-left: 0;
+    line-height: 2rem;
   }
   .section-3 .section-3-holder .banner .banner-header .header-content p {
     margin-bottom: 0;
   }
-  .section-3 .section-3-holder .banner .banner-header .header-p {
+  .section-3 .section-3-holder .banner .banner-header .header-icon {
+    margin-left: -1rem;
+  }
+  .section-3 .section-3-holder .banner .banner-header .header-icon img {
     width: 50%;
+  }
+  .section-3 .section-3-holder .banner .header-p {
+    text-align: left;
+    display: block;
+    width: 52%;
+    color: #fff;
+    font-family: "Courier", sans-serif;
+    margin-bottom: 0;
+  }
+  .section-3 .section-3-holder .banner .header-p p {
+    margin-bottom: 0;
+  }
+}
+.content-1 {
+  background: url(../Images/bg-3-01.png) no-repeat;
+  background-size: cover;
+  padding: 2rem 0;
+  position: relative;
+}
+.content-1 .owl-2 .owl-2-item {
+  text-align: center;
+  margin: 0 3.8rem;
+  border: 2px solid #662d91;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-1 .owl-2 .owl-2-item .item-img {
+  height: 12.5rem;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 15px 15px 0 0;
+}
+.content-1 .owl-2 .owl-2-item .item-img img {
+  width: 100%;
+  height: 100%;
+}
+.content-1 .owl-2 .owl-2-item .item-details {
+  background-color: #f1edf4;
+  padding: 0.5rem 0 1rem;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-text {
+  flex: 0 0 5rem;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-text h5 {
+  font-family: "UTM AvoBold", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-text p {
+  font-family: "UTM Avo", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-text p span {
+  display: block;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-btn {
+  font-family: "SVN-Museo", sans-serif;
+  text-transform: uppercase;
+  padding: 0.1rem 0.7rem;
+  background-color: #5e2c7e;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 15px;
+  font-size: 0.7rem;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.content-1 .owl-btn {
+  position: absolute;
+  top: 42%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #5e2c7e;
+  z-index: 1;
+}
+.content-1 .owl-next {
+  right: 3%;
+}
+.content-1 .owl-prev {
+  left: 3%;
+}
+
+@media screen and (min-width: 375px) {
+  .content-1 {
+    padding-top: 3rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-img {
+    height: 18rem;
+  }
+  .content-1 .owl-btn {
+    top: 45%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .content-1 {
+    padding-top: 4rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-img {
+    height: 22rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content-1 {
+    padding-top: 7rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-img {
+    height: 18rem;
+  }
+  .content-1 .owl-btn {
+    top: 50%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .content-1 {
+    padding-top: 12rem;
+  }
+  .content-1 .owl-2 {
+    margin: 4rem 0 2rem;
+  }
+  .content-1 .owl-2 .owl-2-item {
+    margin: 0 0.8rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-img {
+    height: 20rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-details .details-text {
+    flex: 0 0 7.8rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-details .details-text h5 {
+    font-size: 1.2rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-details .details-text p {
+    font-size: 0.9rem;
+  }
+  .content-1 .owl-2 .owl-2-item .item-details .details-btn {
+    font-size: 1rem;
+  }
+  .content-1 .owl-btn {
+    top: 60%;
   }
 }
 body {

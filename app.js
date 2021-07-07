@@ -32,3 +32,41 @@ $(".owl-1").owlCarousel({
     items:1
 })
 
+
+$(".owl-2").owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    responsive: {
+        0:{
+            items:1
+        },
+
+        768:{
+            items:2
+        },
+
+        991:{
+            items:4
+        }
+    }
+}) 
+
+
+//Prev and next button
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  
+    //next
+    $('.owl-next').click(function() {
+        $(".owl-carousel").trigger('next.owl.carousel');
+    })
+
+    //prev
+    $('.owl-prev').click(function() {
+        $(".owl-carousel").trigger('prev.owl.carousel');
+    })
+  });
+
+
+

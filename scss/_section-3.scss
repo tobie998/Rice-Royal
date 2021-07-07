@@ -1,16 +1,20 @@
 .section-3 {
     background: url(../Images/bg-2-01.png) no-repeat;
     background-size: cover;
+    height: 40vh;
+    position: relative;
 
     .section-3-holder {
         display: flex;
         flex-direction: column;
         text-align: center;
+        transform: translateY(50%);
 
         .section-3-logo {
+            margin-bottom: 0.5rem;
 
             img {
-                width: 15%;
+                width: 12%;
             }
         }
 
@@ -18,9 +22,9 @@
 
             h4 {
                 font-family: 'UTM AvoBold', sans-serif;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 text-transform: uppercase;
-                margin-bottom: 0;
+                margin-bottom: 0.2rem;
             }
 
             p {
@@ -37,20 +41,44 @@
 
         .banner {
             background: url(../Images/banner-01-01.png) no-repeat;
-            background-size: contain;
+            background-size: cover;
             background-color: #5e2c7e;
+            position: absolute;
+            width: 100%;
+            bottom: -80%;
+            left: 0;
+            padding: 1rem 0;
             
             .banner-header {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
 
                 .header-content {
                     font-family: 'SVN-A love of thunder', sans-serif;
                     font-size: 1rem;
                     color: #fff;
+                    margin-left: 1rem;
+                    line-height: 1.2rem;
+                    text-align: left;
 
                     p {
                         margin-bottom: 0;
                     }
                 }
+
+                .header-icon {
+                    width: 10%;
+                    margin-left: 0.5rem;
+
+                    img {
+                        width: 90%;
+                    }
+                }
+            }
+
+            .header-p {
+                display: none;
             }
         }
     }
@@ -58,26 +86,27 @@
 
 @media screen and (min-width: 991px) {
     .section-3 {
-        background: url(../Images/bg-2-01.png) no-repeat;
-        background-size: cover;
+        height: 100vh;
+        position: relative;
+       
     
         .section-3-holder {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-    
+            transform: translateY(150%);
+
             .section-3-logo {
-    
+                margin-bottom: 0;
+
                 img {
-                    width: 15%;
+                    width: 5%;
                 }
             }
     
             .section-3-content {
-    
+                margin-top: 1.5rem;
+
                 h4 {
                     font-family: 'UTM AvoBold', sans-serif;
-                    font-size: 1.2rem;
+                    font-size: 2rem;
                     text-transform: uppercase;
                     margin-bottom: 0;
                 }
@@ -86,33 +115,64 @@
                     margin: 0 auto;
                     width: 60%;
                     font-family: 'UTM Avo', sans-serif;
-                    font-size: 0.8rem;
+                    font-size: 1.2rem;
+                    font-weight: 500;
                 }
             }
     
             .section-3-img {
-                display: none;
+                display: block;
+                position: absolute;
+                right: 0;
+                bottom: -30vh;
+
+                img {
+                    width: 80%;
+                }
             }
     
             .banner {
-                background: url(../Images/banner-01-01.png) no-repeat;
-                background-size: cover;
-                background-color: #5e2c7e;
+                position: absolute;
+                bottom: -70vh;
+                left: 0;
+                padding: 2rem;
+                
                 
                 .banner-header {
-    
+                    margin-bottom: 1rem;
+
                     .header-content {
                         font-family: 'SVN-A love of thunder', sans-serif;
-                        font-size: 1rem;
+                        font-size: 2rem;
                         color: #fff;
+                        margin-left: 0;
+                        line-height: 2rem;
     
                         p {
                             margin-bottom: 0;
                         }
                     }
 
-                    .header-p {
-                        width: 50%;
+                    .header-icon {
+                        margin-left: -1rem;
+
+                        img {
+                            width: 50%;
+                        }
+                    }
+                    
+                }
+
+                .header-p {
+                    text-align: left;
+                    display: block;
+                    width: 52%;
+                    color: #fff;
+                    font-family: 'Courier', sans-serif;
+                    margin-bottom: 0; 
+
+                    p {
+                        margin-bottom: 0;
                     }
                 }
             }
