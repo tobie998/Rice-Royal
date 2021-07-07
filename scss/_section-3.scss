@@ -84,12 +84,39 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .section-3 {
+    
+        .section-3-holder {
+    
+            .banner {
+                
+                .banner-header {
+    
+                    .header-content {
+                        font-size: 1.5rem;
+                        margin-left: 1;
+                        line-height: 1.7rem;
+                    }
+    
+                    .header-icon {
+                        margin-left: 1rem;
+    
+                        img {
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 991px) {
     .section-3 {
         height: 100vh;
         position: relative;
        
-    
         .section-3-holder {
             transform: translateY(150%);
 
@@ -105,16 +132,10 @@
                 margin-top: 1.5rem;
 
                 h4 {
-                    font-family: 'UTM AvoBold', sans-serif;
                     font-size: 2rem;
-                    text-transform: uppercase;
-                    margin-bottom: 0;
                 }
     
                 p {
-                    margin: 0 auto;
-                    width: 60%;
-                    font-family: 'UTM Avo', sans-serif;
                     font-size: 1.2rem;
                     font-weight: 500;
                 }
@@ -142,9 +163,7 @@
                     margin-bottom: 1rem;
 
                     .header-content {
-                        font-family: 'SVN-A love of thunder', sans-serif;
                         font-size: 2rem;
-                        color: #fff;
                         margin-left: 0;
                         line-height: 2rem;
     
@@ -160,7 +179,6 @@
                             width: 50%;
                         }
                     }
-                    
                 }
 
                 .header-p {

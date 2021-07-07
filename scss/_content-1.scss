@@ -4,7 +4,6 @@
     padding: 2rem 0;
     position: relative;
 
-
     .owl-2 {
        
         .owl-2-item {
@@ -30,8 +29,8 @@
 
             .item-details {
                 background-color: #f1edf4;
-                padding: 0.5rem 0 1rem;
-                border-radius: 0 0 15px 15px;
+                padding: 0.5rem 0 1.5rem;
+                border-radius: 0 0 12px 12px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -65,13 +64,22 @@
                     padding: 0.1rem 0.7rem;
                     background-color: #5e2c7e;
                     width: 50%;
-                    margin: 0 auto;
+                    margin: 0rem auto;
                     border-radius: 15px;
                     font-size: 0.7rem;
 
                     a {
                         text-decoration: none;
                         color: #fff;
+                    }
+                }
+
+                .details-btn:hover {
+                    background-color: #fff;
+                    border: 1px solid #5e2c7e;
+
+                    a {
+                        color: #5e2c7e;
                     }
                 }
             }
@@ -85,6 +93,7 @@
         background: none;
         outline: none;
         font-size: 1.5rem;
+        font-weight: 900;
         color: #5e2c7e;
         z-index: 1;
     }
@@ -95,6 +104,36 @@
 
     .owl-prev {
         left: 3%;
+    }
+}
+
+.general-content {
+    padding: 1rem 0 2rem;
+}
+
+//Yellow at item details
+#yellow-details {
+
+    .item-details {
+        background-color: #fff4d7;
+    }
+}
+
+//Green at item details
+#green-details {
+
+    .item-details {
+        background-color: #dae7e1;
+    }
+}
+
+//Red at item details
+#red-details {
+    background: none;
+    padding-bottom: 0;
+
+    .item-details {
+        background-color: #f5e9e8;
     }
 }
 
@@ -153,7 +192,15 @@
         .owl-btn {
             top: 50%;
         }
-    }   
+    } 
+    
+    .general-content {
+        padding: 2rem 0;
+
+        .owl-btn {
+            top: 45%;
+        }
+    }
 }
 
 @media screen and (min-width: 991px) {
@@ -173,7 +220,7 @@
                 .item-details {
 
                     .details-text {
-                        flex: 0 0 7.8rem;
+                        flex: 0 0 8rem;
 
                         h5 {
                             font-size: 1.2rem;
@@ -186,6 +233,7 @@
 
                     .details-btn {
                         font-size: 1rem;
+                        padding: 0.1rem 0.3rem;
                     }
                 }
             }
@@ -194,12 +242,21 @@
         .owl-btn {
             top: 60%;
         }
-    }   
+    }
+    
+    .general-content {
+        padding: 1.5rem 0 2rem;
+
+        .owl-btn {
+            top: 50%;
+        }
+    }
 }
 
 @media screen and (min-width: 1440px) {
     .content-1 {
-       
+        padding-top: 8rem;
+
         .owl-next {
             right: 10%;
         }

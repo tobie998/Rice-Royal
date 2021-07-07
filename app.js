@@ -52,6 +52,46 @@ $(".owl-2").owlCarousel({
     }
 }) 
 
+$(".owl-2").owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    responsive: {
+        0:{
+            items:1
+        },
+
+        768:{
+            items:2
+        },
+
+        991:{
+            items:4
+        }
+    }
+}) 
+
+$(".owl-3").owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav: false,
+    responsive: {
+        0:{
+            items:1
+        },
+
+        768:{
+            items:3
+        },
+
+        991:{
+            items:3
+        }
+    }
+}) 
+
+
 
 //Prev and next button
 $(document).ready(function(){

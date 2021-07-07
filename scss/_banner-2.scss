@@ -1,0 +1,128 @@
+.banner-2 {
+
+    .banner-holder {
+        background: url(../Images/banner-02-01.png) no-repeat;
+        background-size: cover;
+        background-color: #284a8e;
+        padding: 1rem 0;
+        
+        .banner-header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .header-content {
+                font-family: 'SVN-A love of thunder', sans-serif;
+                font-size: 1rem;
+                color: #fff;
+                margin-left: 1rem;
+                line-height: 1.2rem;
+                text-align: left;
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+
+            .header-icon {
+                width: 10%;
+                margin-left: 0.5rem;
+
+                img {
+                    width: 90%;
+                }
+            }
+        }
+
+        .header-p {
+            display: none;
+        }
+    }
+}
+
+#green-banner {
+
+    .banner-holder {
+        background: url(../Images/banner-03-01.png) no-repeat;
+        background-size: cover;
+        background-color: #047541;
+    }
+}
+
+#red-banner {
+
+    .banner-holder {
+        background: url(../Images/banner-04-01.png) no-repeat;
+        background-size: cover;
+        background-color: #b64940;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-2 {
+
+        .banner-holder {
+            
+            .banner-header {
+
+                .header-content {
+                    font-size: 1.5rem;
+                    margin-left: 1;
+                    line-height: 1.7rem;
+                }
+
+                .header-icon {
+                    margin-left: 1rem;
+
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .banner-2 {
+
+        .banner-holder {
+            padding: 1.5rem 2rem;
+            
+            .banner-header {
+                margin-bottom: 1rem;
+
+                .header-content {
+                    font-size: 2rem;
+                    margin-left: 0;
+                    line-height: 2rem;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+
+                .header-icon {
+                    margin-left: 1rem;
+
+                    img {
+                        width: 50%;
+                    }
+                }
+            }
+
+            .header-p {
+                text-align: left;
+                display: block;
+                width: 51%;
+                color: #fff;
+                font-family: 'Courier', sans-serif;
+                margin-bottom: 0; 
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

@@ -543,6 +543,19 @@
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .section-3 .section-3-holder .banner .banner-header .header-content {
+    font-size: 1.5rem;
+    margin-left: 1;
+    line-height: 1.7rem;
+  }
+  .section-3 .section-3-holder .banner .banner-header .header-icon {
+    margin-left: 1rem;
+  }
+  .section-3 .section-3-holder .banner .banner-header .header-icon img {
+    width: 80%;
+  }
+}
 @media screen and (min-width: 991px) {
   .section-3 {
     height: 100vh;
@@ -561,15 +574,9 @@
     margin-top: 1.5rem;
   }
   .section-3 .section-3-holder .section-3-content h4 {
-    font-family: "UTM AvoBold", sans-serif;
     font-size: 2rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
   }
   .section-3 .section-3-holder .section-3-content p {
-    margin: 0 auto;
-    width: 60%;
-    font-family: "UTM Avo", sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
   }
@@ -592,9 +599,7 @@
     margin-bottom: 1rem;
   }
   .section-3 .section-3-holder .banner .banner-header .header-content {
-    font-family: "SVN-A love of thunder", sans-serif;
     font-size: 2rem;
-    color: #fff;
     margin-left: 0;
     line-height: 2rem;
   }
@@ -617,6 +622,240 @@
   }
   .section-3 .section-3-holder .banner .header-p p {
     margin-bottom: 0;
+  }
+}
+.section-4 {
+  background: url(../Images/bg-2-01.png) no-repeat;
+  background-size: cover;
+  transform: translateY(-40%);
+  height: 50vh;
+}
+.section-4 .section-4-holder {
+  text-align: center;
+  transform: translateY(100%);
+  padding-top: 2rem;
+}
+.section-4 .section-4-holder .logo-holder {
+  margin-bottom: 0.5rem;
+}
+.section-4 .section-4-holder .logo-holder img {
+  width: 15%;
+}
+.section-4 .section-4-holder .section-4-content {
+  background: url(../Images/section-4-bg-01.png) no-repeat;
+  background-size: cover;
+  height: 15vh;
+}
+.section-4 .section-4-holder .section-4-content h4 {
+  font-family: "SVN-A love of thunder", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+.section-4 .section-4-holder .section-4-content p {
+  font-family: "Courier", sans-serif;
+  font-size: 0.8rem;
+}
+.section-4 .section-4-holder .section-4-grid {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .section-4 {
+    transform: translateY(-50%);
+    height: 90vh;
+  }
+  .section-4 .section-4-holder {
+    transform: translateY(40%);
+    padding-top: 5rem;
+  }
+  .section-4 .section-4-holder .logo-holder img {
+    width: 10%;
+  }
+  .section-4 .section-4-holder .section-4-content {
+    height: 20vh;
+  }
+  .section-4 .section-4-holder .section-4-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.2rem;
+  }
+  .section-4 .section-4-holder .section-4-grid .img-holder img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .section-4 .section-4-holder .section-4-grid .img-holder:nth-child(3) {
+    grid-column: 3/5;
+  }
+  .section-4 .section-4-holder .section-4-grid .img-holder:nth-child(4) {
+    grid-column: 1/3;
+  }
+}
+@media screen and (min-width: 991px) {
+  .section-4 {
+    transform: translateY(-50%);
+    height: 90vh;
+  }
+  .section-4 .section-4-holder {
+    transform: translateY(35%);
+    padding-top: 5rem;
+  }
+  .section-4 .section-4-holder .logo-holder img {
+    width: 10%;
+  }
+  .section-4 .section-4-holder .section-4-content {
+    height: 20vh;
+  }
+  .section-4 .section-4-holder .section-4-content h4 {
+    font-size: 2rem;
+  }
+  .section-4 .section-4-holder .section-4-content p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-4 .section-4-holder {
+    transform: translateY(50%);
+    padding-top: 5rem;
+  }
+}
+.section-5 {
+  margin-top: -2rem;
+}
+.section-5 .section-5-holder {
+  text-align: center;
+}
+.section-5 .section-5-holder .logo-holder img {
+  width: 20%;
+}
+.section-5 .section-5-holder .section-5-header {
+  width: 65%;
+  margin: 0.8rem auto;
+}
+.section-5 .section-5-holder .section-5-header h4 {
+  font-family: "SVN-A love of thunder", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item {
+  background-color: #5e2c7e;
+  border-radius: 15px;
+  padding: 1rem 0;
+  margin: 0 2rem;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .portrait-holder img {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  width: 35%;
+  margin: 0 auto;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .item-info {
+  color: #fff;
+  margin: 0.5rem 0;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .item-info h6 {
+  font-family: "UTM Avo", sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .item-info span {
+  display: block;
+  font-style: italic;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .item-content {
+  background-color: #fff;
+  margin: 1rem 1rem 0;
+  padding: 0.5rem;
+  border-radius: 15px;
+  position: relative;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .item-content p {
+  font-family: "Courier", sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  -webkit-text-decoration: underline #ccc;
+          text-decoration: underline #ccc;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .item-content .item-arrow {
+  position: absolute;
+  top: -8%;
+  right: 22%;
+}
+.section-5 .section-5-holder .owl-3 .owl-3-item .item-content .item-arrow img {
+  width: 60%;
+}
+.section-5 .section-5-holder .owl-3 .yellow-bg-item {
+  background-color: #febe10;
+}
+.section-5 .section-5-holder .owl-3 .yellow-bg-item .item-info {
+  color: black;
+}
+
+@media screen and (min-width: 375px) {
+  .section-5 .section-5-holder .owl-3 .owl-3-item {
+    margin: 0 3.5rem;
+  }
+}
+@media screen and (min-width: 425px) {
+  .section-5 .section-5-holder .owl-3 .owl-3-item {
+    margin: 0 4rem;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item .portrait-holder img {
+    width: 30%;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item .item-content .item-arrow {
+    position: absolute;
+    top: -8%;
+    right: 26%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-5 {
+    transform: translateY(50%);
+  }
+  .section-5 .section-5-holder .logo-holder img {
+    width: 15%;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item {
+    margin: 0 0.5rem;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item .item-content .item-arrow {
+    position: absolute;
+    top: -6%;
+    right: 20%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .section-5 {
+    transform: translateY(45%);
+  }
+  .section-5 .section-5-holder .logo-holder img {
+    width: 15%;
+  }
+  .section-5 .section-5-holder .section-5-header h4 {
+    font-size: 2rem;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item {
+    margin: 0 1rem;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item .item-info h6 {
+    font-size: 1rem;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item .item-content p {
+    font-size: 1rem;
+  }
+  .section-5 .section-5-holder .owl-3 .owl-3-item .item-content .item-arrow {
+    position: absolute;
+    top: -5%;
+    right: 22%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-5 .section-5-holder .owl-3 .owl-3-item .item-content .item-arrow {
+    position: absolute;
+    top: -5%;
+    right: 32%;
   }
 }
 .content-1 {
@@ -646,8 +885,8 @@
 }
 .content-1 .owl-2 .owl-2-item .item-details {
   background-color: #f1edf4;
-  padding: 0.5rem 0 1rem;
-  border-radius: 0 0 15px 15px;
+  padding: 0.5rem 0 1.5rem;
+  border-radius: 0 0 12px 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -677,13 +916,20 @@
   padding: 0.1rem 0.7rem;
   background-color: #5e2c7e;
   width: 50%;
-  margin: 0 auto;
+  margin: 0rem auto;
   border-radius: 15px;
   font-size: 0.7rem;
 }
 .content-1 .owl-2 .owl-2-item .item-details .details-btn a {
   text-decoration: none;
   color: #fff;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-btn:hover {
+  background-color: #fff;
+  border: 1px solid #5e2c7e;
+}
+.content-1 .owl-2 .owl-2-item .item-details .details-btn:hover a {
+  color: #5e2c7e;
 }
 .content-1 .owl-btn {
   position: absolute;
@@ -692,6 +938,7 @@
   background: none;
   outline: none;
   font-size: 1.5rem;
+  font-weight: 900;
   color: #5e2c7e;
   z-index: 1;
 }
@@ -700,6 +947,26 @@
 }
 .content-1 .owl-prev {
   left: 3%;
+}
+
+.general-content {
+  padding: 1rem 0 2rem;
+}
+
+#yellow-details .item-details {
+  background-color: #fff4d7;
+}
+
+#green-details .item-details {
+  background-color: #dae7e1;
+}
+
+#red-details {
+  background: none;
+  padding-bottom: 0;
+}
+#red-details .item-details {
+  background-color: #f5e9e8;
 }
 
 @media screen and (min-width: 375px) {
@@ -731,6 +998,13 @@
   .content-1 .owl-btn {
     top: 50%;
   }
+
+  .general-content {
+    padding: 2rem 0;
+  }
+  .general-content .owl-btn {
+    top: 45%;
+  }
 }
 @media screen and (min-width: 991px) {
   .content-1 {
@@ -746,7 +1020,7 @@
     height: 20rem;
   }
   .content-1 .owl-2 .owl-2-item .item-details .details-text {
-    flex: 0 0 7.8rem;
+    flex: 0 0 8rem;
   }
   .content-1 .owl-2 .owl-2-item .item-details .details-text h5 {
     font-size: 1.2rem;
@@ -756,17 +1030,119 @@
   }
   .content-1 .owl-2 .owl-2-item .item-details .details-btn {
     font-size: 1rem;
+    padding: 0.1rem 0.3rem;
   }
   .content-1 .owl-btn {
     top: 60%;
   }
+
+  .general-content {
+    padding: 1.5rem 0 2rem;
+  }
+  .general-content .owl-btn {
+    top: 50%;
+  }
 }
 @media screen and (min-width: 1440px) {
+  .content-1 {
+    padding-top: 8rem;
+  }
   .content-1 .owl-next {
     right: 10%;
   }
   .content-1 .owl-prev {
     left: 10%;
+  }
+}
+.banner-2 .banner-holder {
+  background: url(../Images/banner-02-01.png) no-repeat;
+  background-size: cover;
+  background-color: #284a8e;
+  padding: 1rem 0;
+}
+.banner-2 .banner-holder .banner-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner-2 .banner-holder .banner-header .header-content {
+  font-family: "SVN-A love of thunder", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 1rem;
+  line-height: 1.2rem;
+  text-align: left;
+}
+.banner-2 .banner-holder .banner-header .header-content p {
+  margin-bottom: 0;
+}
+.banner-2 .banner-holder .banner-header .header-icon {
+  width: 10%;
+  margin-left: 0.5rem;
+}
+.banner-2 .banner-holder .banner-header .header-icon img {
+  width: 90%;
+}
+.banner-2 .banner-holder .header-p {
+  display: none;
+}
+
+#green-banner .banner-holder {
+  background: url(../Images/banner-03-01.png) no-repeat;
+  background-size: cover;
+  background-color: #047541;
+}
+
+#red-banner .banner-holder {
+  background: url(../Images/banner-04-01.png) no-repeat;
+  background-size: cover;
+  background-color: #b64940;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-2 .banner-holder .banner-header .header-content {
+    font-size: 1.5rem;
+    margin-left: 1;
+    line-height: 1.7rem;
+  }
+  .banner-2 .banner-holder .banner-header .header-icon {
+    margin-left: 1rem;
+  }
+  .banner-2 .banner-holder .banner-header .header-icon img {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .banner-2 .banner-holder {
+    padding: 1.5rem 2rem;
+  }
+  .banner-2 .banner-holder .banner-header {
+    margin-bottom: 1rem;
+  }
+  .banner-2 .banner-holder .banner-header .header-content {
+    font-size: 2rem;
+    margin-left: 0;
+    line-height: 2rem;
+  }
+  .banner-2 .banner-holder .banner-header .header-content p {
+    margin-bottom: 0;
+  }
+  .banner-2 .banner-holder .banner-header .header-icon {
+    margin-left: 1rem;
+  }
+  .banner-2 .banner-holder .banner-header .header-icon img {
+    width: 50%;
+  }
+  .banner-2 .banner-holder .header-p {
+    text-align: left;
+    display: block;
+    width: 51%;
+    color: #fff;
+    font-family: "Courier", sans-serif;
+    margin-bottom: 0;
+  }
+  .banner-2 .banner-holder .header-p p {
+    margin-bottom: 0;
   }
 }
 body {
