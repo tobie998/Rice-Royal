@@ -1,11 +1,11 @@
 .section-9 {
     position: fixed;
-    bottom: 5vh;
+    bottom: 25vh;
     left: 0;
     z-index: 99;
+    width: 20%;
 
     .img-holder {
-        width: 20%;
         text-align: left;
 
         img {
@@ -17,5 +17,13 @@
 @media screen and (min-width: 768px) {
     .section-9 {
         left: 1vh;
+        bottom: 30vh;
+        width: 10%;
     }
 }   
+
+@media screen and (min-width: 1440px) {
+    .section-9 {
+        bottom: 20vh;
+    }
+}

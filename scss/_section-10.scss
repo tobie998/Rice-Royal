@@ -3,6 +3,7 @@
     bottom: 30vh;
     right: 0;
     z-index: 99;
+    width: 15%;
 
     .social-icon-holder {
 
@@ -11,8 +12,27 @@
             margin-bottom: 0.8rem;
 
             img {
-                width: 30%;
+                width: 100%;
             }
         }
     }
 }
+
+@media screen and (min-width: 375px) {
+    .section-10 {
+        width: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-10 {
+        width: 8%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .section-10 {
+        width: 5%;
+    }
+}
+

@@ -1,6 +1,5 @@
 .footer {
     background-color: #ffcc00;
-    margin-top: 1rem;
 
     .footer-holder {
         padding: 1rem 0.5rem;
@@ -37,7 +36,7 @@
     }   
     
     .footer-info {
-        padding: 1rem;
+        padding: 1rem 1rem 3rem;
 
         p {
             margin-bottom: 0;
@@ -50,7 +49,7 @@
 
 @media screen and (min-width: 768px) {
     .footer {
-        
+        padding: 3rem 0;
     
         .footer-holder {
             padding: 1rem;
@@ -98,10 +97,7 @@
             padding: 1rem;
     
             p {
-                margin-bottom: 0;
-                font-family: 'SVN-Museo', sans-serif;
-                font-size: 0.8rem;
-                text-align: center; 
+                font-size: 1rem;
             }
         }
     }

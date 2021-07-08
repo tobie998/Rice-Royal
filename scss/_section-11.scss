@@ -1,0 +1,32 @@
+.section-11 {
+    position: fixed;
+    bottom: 0;
+    left: 1vh;
+    z-index: 99;
+    width: 25%;
+
+    .section-11-holder {
+        display: flex;
+        text-align: left;
+
+        .item { 
+            margin-right: 0.5rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-11 {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .section-11 {
+        width: 10%;
+    }
+}

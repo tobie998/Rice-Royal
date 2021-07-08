@@ -1204,12 +1204,12 @@
 }
 .section-9 {
   position: fixed;
-  bottom: 5vh;
+  bottom: 25vh;
   left: 0;
   z-index: 99;
+  width: 20%;
 }
 .section-9 .img-holder {
-  width: 20%;
   text-align: left;
 }
 .section-9 .img-holder img {
@@ -1219,6 +1219,13 @@
 @media screen and (min-width: 768px) {
   .section-9 {
     left: 1vh;
+    bottom: 30vh;
+    width: 10%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-9 {
+    bottom: 20vh;
   }
 }
 .section-10 {
@@ -1226,15 +1233,59 @@
   bottom: 30vh;
   right: 0;
   z-index: 99;
+  width: 15%;
 }
 .section-10 .social-icon-holder .item {
   text-align: right;
   margin-bottom: 0.8rem;
 }
 .section-10 .social-icon-holder .item img {
-  width: 30%;
+  width: 100%;
 }
 
+@media screen and (min-width: 375px) {
+  .section-10 {
+    width: 10%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-10 {
+    width: 8%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .section-10 {
+    width: 5%;
+  }
+}
+.section-11 {
+  position: fixed;
+  bottom: 0;
+  left: 1vh;
+  z-index: 99;
+  width: 25%;
+}
+.section-11 .section-11-holder {
+  display: flex;
+  text-align: left;
+}
+.section-11 .section-11-holder .item {
+  margin-right: 0.5rem;
+}
+.section-11 .section-11-holder .item img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .section-11 {
+    width: 15%;
+  }
+}
+@media screen and (min-width: 991px) {
+  .section-11 {
+    width: 10%;
+  }
+}
 .content-1 {
   background: url(../Images/bg-3-01.png) no-repeat;
   background-size: cover;
@@ -1524,7 +1575,6 @@
 }
 .footer {
   background-color: #ffcc00;
-  margin-top: 1rem;
 }
 .footer .footer-holder {
   padding: 1rem 0.5rem;
@@ -1554,7 +1604,7 @@
   margin-top: 0.5rem;
 }
 .footer .footer-info {
-  padding: 1rem;
+  padding: 1rem 1rem 3rem;
 }
 .footer .footer-info p {
   margin-bottom: 0;
@@ -1564,6 +1614,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding: 3rem 0;
+  }
   .footer .footer-holder {
     padding: 1rem;
     display: flex;
@@ -1601,10 +1654,18 @@
     padding: 1rem;
   }
   .footer .footer-info p {
-    margin-bottom: 0;
-    font-family: "SVN-Museo", sans-serif;
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 1rem;
+  }
+}
+.pre-footer .color {
+  background-color: #5e2c7e;
+  height: 5vh;
+  transform: translateY(0%);
+}
+
+@media screen and (min-width: 768px) {
+  .pre-footer .color {
+    height: 10vh;
   }
 }
 body {
