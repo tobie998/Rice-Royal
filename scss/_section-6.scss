@@ -1,0 +1,110 @@
+.section-6 {
+    background: url(../Images/section-6-bg-01.png) no-repeat;
+    background-size: cover;
+    margin: 2rem 0;
+
+    .section-6-holder {
+        text-align: center;
+        padding: 1rem 0;
+
+        .logo-holder {
+
+            img {
+                width: 10%;
+            }
+        }
+
+        .section-6-header {
+            margin: 0.5rem 0;
+
+            h4 {
+                font-family: 'SVN-A love of thunder', sans-serif;
+                font-size: 1rem;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-family: 'Courier', sans-serif;
+                font-size: 0.8rem;
+                margin-bottom: 0;
+            }
+        }
+
+        .section-6-img {
+
+            .img-holder {
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .section-6-btn {
+            background: url(../Images/section-6-bg-btn-01.png) no-repeat;
+            background-size: contain;
+            background-position: center;
+            margin: 0 auto;
+            padding: 0.2rem 0.5rem;
+            margin-top: 1rem;
+
+            a {
+                font-family: 'SVN-Museo', sans-serif;
+                font-size: 0.8rem;
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    .section-6 {
+        margin: 16rem 0 2rem;
+    
+        .section-6-holder {
+    
+            .logo-holder {
+    
+                img {
+                    width: 5%;
+                }
+            }
+    
+            .section-6-header {
+                margin: 1rem 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:991px) {
+    .section-6 {
+        margin: 18rem 0 2rem;
+    
+        .section-6-holder {
+    
+            .section-6-header {
+                margin: 1rem 0;
+
+                h4 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+    
+            .section-6-btn {
+                padding: 0.5rem 0.8rem;
+                margin: 2rem 0;
+        
+                a {
+                   font-size: 1rem;
+                }
+            }
+        }
+    }
+}

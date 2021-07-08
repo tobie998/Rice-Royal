@@ -1,0 +1,203 @@
+.section-7 {
+
+    .section-7-holder {
+        text-align: center;
+        padding: 1rem;
+        background-color: #5e2c7e;
+
+        .logo-holder {
+            margin: 2rem 0;
+
+            img {
+                width: 40%;
+            }
+        }
+
+        .map-holder {
+
+            iframe {
+                width: 100%;
+                border-radius: 15px;
+            }
+        }
+
+        .section-7-btn {
+
+            .btn-item {
+                margin: 1rem 2rem;
+                border: 1px solid #fff;
+                padding: 0.5rem;
+                border-radius: 15px;
+
+                .btn-logo {
+
+                    img {
+                        width: 15%;
+                    }
+                }
+
+                .btn-caption {
+                    margin: 0.5rem 0;
+
+                    h4 {
+                        font-family: 'SVN-Museo', sans-serif;
+                        font-size: 0.8rem;
+                        color: #fff;
+                        text-transform: uppercase;
+                        margin-bottom: 0;
+                    }
+                }
+
+                .btn-btn {
+                    width: 50%;
+                    padding: 0.1rem 0.3rem;
+                    background-color: #ed1c24;
+                    margin: 0 auto;
+                    border-radius: 8px;
+
+                    a {
+                        font-family: 'UTM Avo', sans-serif;
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .section-7 {
+
+        .section-7-holder {
+
+            .map-holder {
+    
+                iframe {
+                    height: 50vh;
+                }
+            }
+    
+            .section-7-btn {
+    
+                .btn-item {
+                    margin: 1rem 4rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-7 {
+        margin-top: 3rem;
+
+        .section-7-holder {
+
+            .logo-holder {
+
+                img {
+                    width: 25%;
+                }
+            }
+
+            .map-holder {
+    
+                iframe {
+                    height: 80vh;
+                }
+            }
+    
+            .section-7-btn {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .btn-item {
+                    margin: 1rem 4rem;
+                    border: none;
+
+                    .btn-logo {
+
+                        img{
+                            width: 25%;
+                        } 
+                    }
+
+                    .btn-btn {
+                        width: 60%;
+                        padding: 0.2rem 0.5rem;
+                    }
+                }  
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .section-7 {
+        margin-top: 5rem;
+
+        .section-7-holder {
+            padding: 2rem;
+
+            .logo-holder {
+
+                img {
+                    width: 20%;
+                }
+            }
+
+            .map-holder {
+    
+                iframe {
+                    height: 80vh;
+                }
+            }
+    
+            .section-7-btn {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .btn-item {
+                    margin: 1rem 4rem;
+                    border: none;
+
+                    .btn-logo {
+
+                        img{
+                            width: 30%;
+                        } 
+                    }
+
+                    #sc7-icon-2 {
+                        img {
+                            width: 32%;
+                        }
+                    }
+
+                    .btn-caption {
+
+                        h4 {
+                            font-size: 1rem;
+                        }
+
+                        p {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .btn-btn {
+
+                        a {
+                            font-size: 1rem;
+                        }
+                    }
+                }  
+            }
+        }
+    }
+}

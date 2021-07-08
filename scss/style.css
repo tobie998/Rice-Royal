@@ -682,7 +682,6 @@
   }
   .section-4 .section-4-holder .section-4-grid .img-holder img {
     width: 100%;
-    border-radius: 15px;
   }
   .section-4 .section-4-holder .section-4-grid .img-holder:nth-child(3) {
     grid-column: 3/5;
@@ -858,6 +857,384 @@
     right: 32%;
   }
 }
+.section-6 {
+  background: url(../Images/section-6-bg-01.png) no-repeat;
+  background-size: cover;
+  margin: 2rem 0;
+}
+.section-6 .section-6-holder {
+  text-align: center;
+  padding: 1rem 0;
+}
+.section-6 .section-6-holder .logo-holder img {
+  width: 10%;
+}
+.section-6 .section-6-holder .section-6-header {
+  margin: 0.5rem 0;
+}
+.section-6 .section-6-holder .section-6-header h4 {
+  font-family: "SVN-A love of thunder", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.section-6 .section-6-holder .section-6-header p {
+  font-family: "Courier", sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.section-6 .section-6-holder .section-6-img .img-holder img {
+  width: 100%;
+}
+.section-6 .section-6-holder .section-6-btn {
+  background: url(../Images/section-6-bg-btn-01.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+  padding: 0.2rem 0.5rem;
+  margin-top: 1rem;
+}
+.section-6 .section-6-holder .section-6-btn a {
+  font-family: "SVN-Museo", sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .section-6 {
+    margin: 16rem 0 2rem;
+  }
+  .section-6 .section-6-holder .logo-holder img {
+    width: 5%;
+  }
+  .section-6 .section-6-holder .section-6-header {
+    margin: 1rem 0;
+  }
+}
+@media screen and (min-width: 991px) {
+  .section-6 {
+    margin: 18rem 0 2rem;
+  }
+  .section-6 .section-6-holder .section-6-header {
+    margin: 1rem 0;
+  }
+  .section-6 .section-6-holder .section-6-header h4 {
+    font-size: 2rem;
+  }
+  .section-6 .section-6-holder .section-6-header p {
+    font-size: 1.2rem;
+  }
+  .section-6 .section-6-holder .section-6-btn {
+    padding: 0.5rem 0.8rem;
+    margin: 2rem 0;
+  }
+  .section-6 .section-6-holder .section-6-btn a {
+    font-size: 1rem;
+  }
+}
+.section-7 .section-7-holder {
+  text-align: center;
+  padding: 1rem;
+  background-color: #5e2c7e;
+}
+.section-7 .section-7-holder .logo-holder {
+  margin: 2rem 0;
+}
+.section-7 .section-7-holder .logo-holder img {
+  width: 40%;
+}
+.section-7 .section-7-holder .map-holder iframe {
+  width: 100%;
+  border-radius: 15px;
+}
+.section-7 .section-7-holder .section-7-btn .btn-item {
+  margin: 1rem 2rem;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.section-7 .section-7-holder .section-7-btn .btn-item .btn-logo img {
+  width: 15%;
+}
+.section-7 .section-7-holder .section-7-btn .btn-item .btn-caption {
+  margin: 0.5rem 0;
+}
+.section-7 .section-7-holder .section-7-btn .btn-item .btn-caption h4 {
+  font-family: "SVN-Museo", sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.section-7 .section-7-holder .section-7-btn .btn-item .btn-btn {
+  width: 50%;
+  padding: 0.1rem 0.3rem;
+  background-color: #ed1c24;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.section-7 .section-7-holder .section-7-btn .btn-item .btn-btn a {
+  font-family: "UTM Avo", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 425px) {
+  .section-7 .section-7-holder .map-holder iframe {
+    height: 50vh;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item {
+    margin: 1rem 4rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-7 {
+    margin-top: 3rem;
+  }
+  .section-7 .section-7-holder .logo-holder img {
+    width: 25%;
+  }
+  .section-7 .section-7-holder .map-holder iframe {
+    height: 80vh;
+  }
+  .section-7 .section-7-holder .section-7-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item {
+    margin: 1rem 4rem;
+    border: none;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item .btn-logo img {
+    width: 25%;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item .btn-btn {
+    width: 60%;
+    padding: 0.2rem 0.5rem;
+  }
+}
+@media screen and (min-width: 991px) {
+  .section-7 {
+    margin-top: 5rem;
+  }
+  .section-7 .section-7-holder {
+    padding: 2rem;
+  }
+  .section-7 .section-7-holder .logo-holder img {
+    width: 20%;
+  }
+  .section-7 .section-7-holder .map-holder iframe {
+    height: 80vh;
+  }
+  .section-7 .section-7-holder .section-7-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item {
+    margin: 1rem 4rem;
+    border: none;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item .btn-logo img {
+    width: 30%;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item #sc7-icon-2 img {
+    width: 32%;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item .btn-caption h4 {
+    font-size: 1rem;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item .btn-caption p {
+    font-size: 1rem;
+  }
+  .section-7 .section-7-holder .section-7-btn .btn-item .btn-btn a {
+    font-size: 1rem;
+  }
+}
+.section-8 .section-8-holder {
+  text-align: center;
+  background-color: #3b0863;
+  padding: 1rem;
+}
+.section-8 .section-8-holder .form {
+  padding: 1rem 0.5rem;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.section-8 .section-8-holder .form .form-header h4 {
+  font-family: "UTM Avo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 0 auto;
+}
+.section-8 .section-8-holder .form .form-header p {
+  font-family: "SVN-Museo", sans-serif;
+  font-size: 0.8rem;
+  margin: 0.3rem 0;
+}
+.section-8 .section-8-holder .form .form-details input {
+  margin: 0.3rem 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  outline: none;
+}
+.section-8 .section-8-holder .form .form-details .select-details select {
+  width: 100%;
+  margin: 0.3rem 0;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  color: #808080;
+  outline: none;
+}
+.section-8 .section-8-holder .form .form-details textarea {
+  width: 100%;
+  height: 20vh;
+  margin: 0.3rem 0;
+  color: #808080;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  outline: none;
+}
+.section-8 .section-8-holder .form button {
+  border: none;
+  outline: none;
+  padding: 0.2rem 0.5rem;
+  margin: 0.5rem 0 0 0;
+  border-radius: 8px;
+  background-color: #ed1c24;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "UTM Avo", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.section-8 .section-8-holder .form:nth-child(2) {
+  margin-top: 2rem;
+}
+.section-8 .section-8-holder .form:nth-child(2) .form-header {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section-8 .section-8-holder {
+    padding: 2rem 1rem;
+  }
+  .section-8 .section-8-holder .form {
+    padding: 2rem 4rem;
+  }
+  .section-8 .section-8-holder .form .form-header p {
+    font-size: 1rem;
+  }
+  .section-8 .section-8-holder .form .form-details {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .section-8 .section-8-holder .form .form-details input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+  .section-8 .section-8-holder .form .form-details .select-details select {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  .section-8 .section-8-holder .form .form-details textarea {
+    height: 30vh;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+  .section-8 .section-8-holder .form button {
+    padding: 0.5rem 0.8rem;
+  }
+  .section-8 .section-8-holder .form:nth-child(2) .form-details {
+    margin-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .section-8 .section-8-holder .form:nth-child(2) .form-details input {
+    margin: 0;
+  }
+  .section-8 .section-8-holder .form:nth-child(2) .form-details .select-details {
+    display: flex;
+  }
+  .section-8 .section-8-holder .form:nth-child(2) .form-details .select-details select {
+    margin: 0;
+  }
+  .section-8 .section-8-holder .form:nth-child(2) .form-details textarea {
+    grid-column: 1/3;
+    margin: 0;
+  }
+  .section-8 .section-8-holder .form:nth-child(2) button {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 991px) {
+  .section-8 .section-8-holder {
+    padding: 2rem;
+  }
+  .section-8 .section-8-holder .form {
+    padding: 2rem 4rem;
+  }
+  .section-8 .section-8-holder .form .form-header h4 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .section-8 .section-8-holder .form .form-header p {
+    font-size: 1.1rem;
+  }
+  .section-8 .section-8-holder .form .form-details {
+    width: 40%;
+  }
+  .section-8 .section-8-holder .form button {
+    padding: 0.6rem 1rem;
+  }
+  .section-8 .section-8-holder .form:nth-child(2) {
+    margin-top: 3rem;
+  }
+}
+.section-9 {
+  position: fixed;
+  bottom: 5vh;
+  left: 0;
+  z-index: 99;
+}
+.section-9 .img-holder {
+  width: 20%;
+  text-align: left;
+}
+.section-9 .img-holder img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .section-9 {
+    left: 1vh;
+  }
+}
+.section-10 {
+  position: fixed;
+  bottom: 30vh;
+  right: 0;
+  z-index: 99;
+}
+.section-10 .social-icon-holder .item {
+  text-align: right;
+  margin-bottom: 0.8rem;
+}
+.section-10 .social-icon-holder .item img {
+  width: 30%;
+}
+
 .content-1 {
   background: url(../Images/bg-3-01.png) no-repeat;
   background-size: cover;
@@ -1143,6 +1520,91 @@
   }
   .banner-2 .banner-holder .header-p p {
     margin-bottom: 0;
+  }
+}
+.footer {
+  background-color: #ffcc00;
+  margin-top: 1rem;
+}
+.footer .footer-holder {
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #464243;
+}
+.footer .footer-holder .footer-item {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+.footer .footer-holder .footer-item .icon-holder {
+  font-size: 2rem;
+  color: #797171;
+}
+.footer .footer-holder .footer-item .content {
+  font-family: "Courier", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+.footer .footer-holder .footer-item .content span {
+  display: block;
+}
+.footer .footer-holder .footer-item img {
+  width: 20%;
+}
+.footer .footer-holder .footer-item:last-child {
+  margin-top: 0.5rem;
+}
+.footer .footer-info {
+  padding: 1rem;
+}
+.footer .footer-info p {
+  margin-bottom: 0;
+  font-family: "SVN-Museo", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .footer-holder {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex: 25%;
+  }
+  .footer .footer-holder .footer-item {
+    flex: 0 0 22%;
+  }
+  .footer .footer-holder .footer-item .icon-holder {
+    font-size: 2rem;
+    color: #797171;
+  }
+  .footer .footer-holder .footer-item .content {
+    font-family: "Courier", sans-serif;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .footer .footer-holder .footer-item .content span {
+    display: block;
+  }
+  .footer .footer-holder .footer-item img {
+    width: 20%;
+  }
+  .footer .footer-holder .footer-item:first-child {
+    flex: 0 0 50%;
+  }
+  .footer .footer-holder .footer-item:last-child {
+    flex: 0 0 5%;
+  }
+  .footer .footer-holder .footer-item:last-child img {
+    width: 100%;
+  }
+  .footer .footer-info {
+    padding: 1rem;
+  }
+  .footer .footer-info p {
+    margin-bottom: 0;
+    font-family: "SVN-Museo", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
   }
 }
 body {

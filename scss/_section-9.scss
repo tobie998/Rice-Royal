@@ -1,0 +1,21 @@
+.section-9 {
+    position: fixed;
+    bottom: 5vh;
+    left: 0;
+    z-index: 99;
+
+    .img-holder {
+        width: 20%;
+        text-align: left;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-9 {
+        left: 1vh;
+    }
+}   

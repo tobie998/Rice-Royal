@@ -1,0 +1,108 @@
+.footer {
+    background-color: #ffcc00;
+    margin-top: 1rem;
+
+    .footer-holder {
+        padding: 1rem 0.5rem;
+        border-bottom: 1px solid #464243;
+
+        .footer-item {
+            display: flex;
+            align-items: center;
+            vertical-align: middle;
+
+            .icon-holder {
+                font-size: 2rem;
+                color: #797171;
+            }
+
+            .content {
+                font-family: 'Courier', sans-serif;
+                font-size: 0.8rem;
+                margin-top: 1rem;
+
+                span {
+                    display: block;
+                }
+            }
+
+            img {
+                width: 20%;
+            }
+        }
+
+        .footer-item:last-child {
+            margin-top: 0.5rem;
+        }
+    }   
+    
+    .footer-info {
+        padding: 1rem;
+
+        p {
+            margin-bottom: 0;
+            font-family: 'SVN-Museo', sans-serif;
+            font-size: 0.8rem;
+            text-align: center; 
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        
+    
+        .footer-holder {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+            flex: 25%;
+    
+            .footer-item {
+                flex: 0 0 22%;
+    
+                .icon-holder {
+                    font-size: 2rem;
+                    color: #797171;
+                }
+    
+                .content {
+                    font-family: 'Courier', sans-serif;
+                    font-size: 0.8rem;
+                    margin-top: 1rem;
+    
+                    span {
+                        display: block;
+                    }
+                }
+    
+                img {
+                    width: 20%;
+                }
+            }
+
+            .footer-item:first-child {
+                flex: 0 0 50%;
+            }
+    
+            .footer-item:last-child {
+                flex: 0 0 5%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }   
+        
+        .footer-info {
+            padding: 1rem;
+    
+            p {
+                margin-bottom: 0;
+                font-family: 'SVN-Museo', sans-serif;
+                font-size: 0.8rem;
+                text-align: center; 
+            }
+        }
+    }
+}

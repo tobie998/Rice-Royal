@@ -56,6 +56,7 @@ $(".owl-2").owlCarousel({
     loop:true,
     margin:10,
     dots:false,
+    center:true,
     responsive: {
         0:{
             items:1
@@ -72,6 +73,26 @@ $(".owl-2").owlCarousel({
 }) 
 
 $(".owl-3").owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav: false,
+    responsive: {
+        0:{
+            items:1
+        },
+
+        768:{
+            items:3
+        },
+
+        991:{
+            items:3
+        }
+    }
+}) 
+
+$(".owl-4").owlCarousel({
     loop:true,
     margin:10,
     dots:false,

@@ -1,0 +1,18 @@
+.section-10 {
+    position: fixed;
+    bottom: 30vh;
+    right: 0;
+    z-index: 99;
+
+    .social-icon-holder {
+
+        .item { 
+            text-align: right;
+            margin-bottom: 0.8rem;
+
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
